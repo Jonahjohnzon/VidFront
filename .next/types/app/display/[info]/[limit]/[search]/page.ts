@@ -1,4 +1,4 @@
-// File: /home/loozebox/Documents/vidnaija/app/display/[info]/[limit]/[search]/page.js
+// File: C:\Users\USER\Documents\Vid\VidFront\app\display\[info]\[limit]\[search]\page.js
 import * as entry from '../../../../../../../app/display/[info]/[limit]/[search]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

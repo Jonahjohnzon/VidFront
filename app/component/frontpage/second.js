@@ -35,7 +35,7 @@ const Second = ({header,Datas}) => {
         return info
     }
   return (
-    <main className=' pb-10 mb-5 2xl:mb-24'>
+    <main className=' pb-10 mb-5 2xl:mb-12'>
         <div>
             <header className=' font-bold text-2xl text-white mb-5 flex items-center justify-between'><h1>{header}</h1><div className='flex items-center text-sm text-[#A5AFBE]'><BiSolidGrid  className=' text-yellow-500'/></div></header>
             <ul className=' font-bold text-sm flex items-center mb-8'>

@@ -1,4 +1,4 @@
-// File: /home/loozebox/Documents/vidnaija/app/layout.js
+// File: C:\Users\USER\Documents\Vid\VidFront\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

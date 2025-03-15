@@ -6,7 +6,6 @@ import Trailer from "./component/frontpage/trailer";
 import Animes from "./component/frontpage/animes";
 import Loading from "./loading";
 import Search from "./search";
-import { PagesProgressBar as ProgressBar } from 'next-nprogress-bar';
 
 
 
@@ -33,7 +32,7 @@ export default function Home() {
     setload(true)
     const info  = Data?.top
     const secondinfo  = Data?.hollywood
-    const thirdinfo  = Data?.bollywood
+    const thirdinfo  = Data?.telenovelas
     const fourthinfo  = Data?.tvshows
     const ani = Data?.datak
     const trailer = Data?.trailer
@@ -43,8 +42,8 @@ export default function Home() {
     setdatas(info)
     setSecond(secondinfo)
     setThird(thirdinfo)
-    setFourth(fourthinfo)
-    setanime(ani)
+    setFourth(ani)
+    setanime(fourthinfo)
     settrail(trailer)
   }}
 
@@ -64,11 +63,11 @@ export default function Home() {
       <Top Datas={datas}/>
       <div className=" w-[88%] overflow-hidden pt-16">
       <Second header={"HOLLYWOOD RELEASE"} Datas={second} />
-      <Second header={"BOLLYWOOD RELEASE"} Datas={third}/>
-      <Second header={"TVSHOWS RELEASE"} Datas={fourth}/>
+      <Second header={"TELENOVELA RELEASE"} Datas={third}/>
+      <Second header={"KOREAN RELEASE"} Datas={fourth}/>
       </div>
       <Trailer trailer={trail} lat={lat}/>
-      <div className=" w-[90%] 2xl:w-[88%] overflow-hidden pt-16"><Animes header={"ASIAN-SERIES RELEASE"} Datas={anime} /></div>
+      <div className=" w-[90%] 2xl:w-[88%] overflow-hidden pt-16"><Animes header={"TV-SERIES RELEASE"} Datas={anime} /></div>
      </section>:<Loading/>}
     </main>
   )

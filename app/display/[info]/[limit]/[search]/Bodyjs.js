@@ -35,7 +35,6 @@ const Bodyjs = ({params}) => {
       const data = await fetch(`${backend}/listMovies/${info}?start=${sta}&limit=${lim}`)
       try{
         const data_ = await data.json()
-        console.log(data_)
         if(!data_)
         {
           setlen(0)
@@ -135,7 +134,7 @@ const Bodyjs = ({params}) => {
             </section>
           </div>
           <div className=' h-[1px] overflow-x-hidden w-full bg-[#A5AFBE] bg-opacity-40'></div>
-          {Data.length < 1 ?<div className=' h-60 flex justify-center items-center'>
+          {Data?.length < 1 ?<div className=' h-60 flex justify-center items-center'>
 
             <p className=' text-white font-bold text-2xl'>NO MOVIE FOUND</p>
           </div>: <Body Datas={Data} info={info}/>}

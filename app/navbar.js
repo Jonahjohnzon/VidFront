@@ -203,7 +203,7 @@ const Navbar = () => {
     if (h == "a") {
       sa("#EABC00");
       setslide(true);
-      router.push("/display/anime/1/1");
+      router.push("/display/telenovelas/1/1");
     } else {
       sa("");
     }
@@ -296,14 +296,14 @@ const Navbar = () => {
                 style={{ color: k }}
                 onClick={() => Hom("k")}
               >
-                ASIAN-SERIES
+                K-SERIES
               </li>
               <li
                 className=" cursor-pointer hover:text-yellow-500 flex items-center text-sm mb-6 justify-center"
                 style={{ color: a }}
                 onClick={() => Hom("a")}
               >
-                ANIMES
+                TELENOVELA
               </li>
               <li
                 className=" cursor-pointer hover:text-yellow-500 flex items-center text-sm mb-6 justify-center"
@@ -433,14 +433,14 @@ const Navbar = () => {
                 style={{ color: k }}
                 onClick={() => Hom("k")}
               >
-                ASIAN-SERIES
+                K-SERIES
               </li>
               <li
                 className=" cursor-pointer hover:text-yellow-500 flex items-center  h-20 justify-center"
                 style={{ color: a }}
                 onClick={() => Hom("a")}
               >
-                ANIMES
+                TELENOVELA
               </li>
               <li
                 className=" cursor-pointer hover:text-yellow-500 flex items-center  h-20 justify-center"

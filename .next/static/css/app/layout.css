@@ -1,9 +1,9 @@
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.js","import":"Dosis","arguments":[{"subsets":["latin"]}],"variableName":"dosis"} ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.24_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/.pnpm/next@14.2.24_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/.pnpm/next@14.2.24_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Dosis","arguments":[{"subsets":["latin"]}],"variableName":"dosis"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* vietnamese */
 @font-face {
-  font-family: '__Dosis_731755';
+  font-family: '__Dosis_ee3e2e';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
@@ -12,30 +12,136 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Dosis_731755';
+  font-family: '__Dosis_ee3e2e';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
   src: url(/_next/static/media/9b8d9bd9da1c904b-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Dosis_731755';
+  font-family: '__Dosis_ee3e2e';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
   src: url(/_next/static/media/c6e04b5f0940e652-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Dosis_Fallback_731755';src: local("Arial");ascent-override: 120.56%;descent-override: 27.82%;line-gap-override: 0.00%;size-adjust: 85.18%
-}.__className_731755 {font-family: '__Dosis_731755', '__Dosis_Fallback_731755';font-style: normal
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Dosis_Fallback_ee3e2e';src: local("Arial");ascent-override: 121.44%;descent-override: 28.03%;line-gap-override: 0.00%;size-adjust: 84.57%
+}.__className_ee3e2e {font-family: '__Dosis_ee3e2e', '__Dosis_Fallback_ee3e2e';font-style: normal
 }
 
-/*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./app/globals.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************/
-/*
-! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.24_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/.pnpm/next@14.2.24_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -62,17 +168,20 @@
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
 6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
 */
 
-html {
+html,
+:host {
   line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
 }
 
 /*
@@ -139,8 +248,10 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font family by default.
-2. Correct the odd `em` font sizing in all browsers.
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
 */
 
 code,
@@ -148,7 +259,9 @@ kbd,
 samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
 }
 
 /*
@@ -208,6 +321,7 @@ textarea {
   font-size: 100%; /* 1 */
   font-weight: inherit; /* 1 */
   line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
   color: inherit; /* 1 */
   margin: 0; /* 2 */
   padding: 0; /* 3 */
@@ -228,9 +342,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
   -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
@@ -418,113 +532,13 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
-[hidden] {
+[hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
 
 * {
   scrollbar-color: initial;
   scrollbar-width: initial;
-}
-
-*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-}
-
-::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
 }
 .fixed {
   position: fixed;
@@ -953,11 +967,6 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
-.select-none {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
 .flex-col {
   flex-direction: column;
 }
@@ -1074,63 +1083,63 @@ video {
 }
 .border-\[\#020B19\] {
   --tw-border-opacity: 1;
-  border-color: rgb(2 11 25 / var(--tw-border-opacity));
+  border-color: rgb(2 11 25 / var(--tw-border-opacity, 1));
 }
 .border-\[\#243651\] {
   --tw-border-opacity: 1;
-  border-color: rgb(36 54 81 / var(--tw-border-opacity));
+  border-color: rgb(36 54 81 / var(--tw-border-opacity, 1));
 }
 .border-\[\#383B42\] {
   --tw-border-opacity: 1;
-  border-color: rgb(56 59 66 / var(--tw-border-opacity));
+  border-color: rgb(56 59 66 / var(--tw-border-opacity, 1));
 }
 .border-\[\#A5AFBE\] {
   --tw-border-opacity: 1;
-  border-color: rgb(165 175 190 / var(--tw-border-opacity));
+  border-color: rgb(165 175 190 / var(--tw-border-opacity, 1));
 }
 .border-black {
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 .border-gray-100 {
   --tw-border-opacity: 1;
-  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+  border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
 }
 .border-gray-200 {
   --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 .border-gray-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+  border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
 }
 .border-gray-800 {
   --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));
 }
 .border-red-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+  border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
 }
 .border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 .border-yellow-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(202 138 4 / var(--tw-border-opacity));
+  border-color: rgb(202 138 4 / var(--tw-border-opacity, 1));
 }
 .border-b-\[\#03091A\] {
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(3 9 26 / var(--tw-border-opacity));
+  border-bottom-color: rgb(3 9 26 / var(--tw-border-opacity, 1));
 }
 .border-r-gray-200 {
   --tw-border-opacity: 1;
-  border-right-color: rgb(229 231 235 / var(--tw-border-opacity));
+  border-right-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 .border-t-\[\#03091A\] {
   --tw-border-opacity: 1;
-  border-top-color: rgb(3 9 26 / var(--tw-border-opacity));
+  border-top-color: rgb(3 9 26 / var(--tw-border-opacity, 1));
 }
 .border-opacity-10 {
   --tw-border-opacity: 0.1;
@@ -1146,94 +1155,94 @@ video {
 }
 .bg-\[\#020819\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(2 8 25 / var(--tw-bg-opacity));
+  background-color: rgb(2 8 25 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#020B19\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(2 11 25 / var(--tw-bg-opacity));
+  background-color: rgb(2 11 25 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#03091A\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(3 9 26 / var(--tw-bg-opacity));
+  background-color: rgb(3 9 26 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#07101F\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(7 16 31 / var(--tw-bg-opacity));
+  background-color: rgb(7 16 31 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#09152A\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 21 42 / var(--tw-bg-opacity));
+  background-color: rgb(9 21 42 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#0D172B\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 23 43 / var(--tw-bg-opacity));
+  background-color: rgb(13 23 43 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#0f2236\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 34 54 / var(--tw-bg-opacity));
+  background-color: rgb(15 34 54 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#111E34\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 30 52 / var(--tw-bg-opacity));
+  background-color: rgb(17 30 52 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#141935\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(20 25 53 / var(--tw-bg-opacity));
+  background-color: rgb(20 25 53 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#243651\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(36 54 81 / var(--tw-bg-opacity));
+  background-color: rgb(36 54 81 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#A5AFBE\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(165 175 190 / var(--tw-bg-opacity));
+  background-color: rgb(165 175 190 / var(--tw-bg-opacity, 1));
 }
 .bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 .bg-blue-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
 }
 .bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
 }
 .bg-green-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
 }
 .bg-orange-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
 }
 .bg-red-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
 }
 .bg-red-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 .bg-sky-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
+  background-color: rgb(2 132 199 / var(--tw-bg-opacity, 1));
 }
 .bg-transparent {
   background-color: transparent;
 }
 .bg-violet-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(109 40 217 / var(--tw-bg-opacity));
+  background-color: rgb(109 40 217 / var(--tw-bg-opacity, 1));
 }
 .bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
@@ -1474,39 +1483,39 @@ video {
 }
 .text-\[\#A5AFBE\] {
   --tw-text-opacity: 1;
-  color: rgb(165 175 190 / var(--tw-text-opacity));
+  color: rgb(165 175 190 / var(--tw-text-opacity, 1));
 }
 .text-black {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 .text-blue-500 {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 .text-orange-300 {
   --tw-text-opacity: 1;
-  color: rgb(253 186 116 / var(--tw-text-opacity));
+  color: rgb(253 186 116 / var(--tw-text-opacity, 1));
 }
 .text-red-500 {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .text-red-600 {
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 .text-yellow-400 {
   --tw-text-opacity: 1;
-  color: rgb(250 204 21 / var(--tw-text-opacity));
+  color: rgb(250 204 21 / var(--tw-text-opacity, 1));
 }
 .text-yellow-500 {
   --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 .underline {
   text-decoration-line: underline;
@@ -1661,25 +1670,25 @@ p{
 }
 .placeholder\:text-black::-moz-placeholder {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 .placeholder\:text-black::placeholder {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 .group:hover .group-hover\:block {
   display: block;
 }
 .group:hover .group-hover\:border-yellow-500 {
   --tw-border-opacity: 1;
-  border-color: rgb(234 179 8 / var(--tw-border-opacity));
+  border-color: rgb(234 179 8 / var(--tw-border-opacity, 1));
 }
 .group:hover .group-hover\:bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
 .group:hover .group-hover\:text-yellow-500 {
   --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
@@ -1689,30 +1698,30 @@ p{
 }
 .hover\:bg-\[\#1F375F\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 55 95 / var(--tw-bg-opacity));
+  background-color: rgb(31 55 95 / var(--tw-bg-opacity, 1));
 }
 .hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
 }
 .hover\:bg-red-600:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
 }
 .hover\:bg-red-800:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity, 1));
 }
 .hover\:bg-opacity-10:hover {
   --tw-bg-opacity: 0.1;
 }
 .hover\:text-yellow-500:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 @media (min-width: 640px) {
 
@@ -1984,7 +1993,7 @@ p{
 
   .lg\:border-black {
     --tw-border-opacity: 1;
-    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+    border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
   }
 
   .lg\:px-10 {
@@ -2094,6 +2103,18 @@ p{
 
   .\32xl\:mb-24 {
     margin-bottom: 6rem;
+  }
+
+  .\32xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .\32xl\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .\32xl\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .\32xl\:h-\[300px\] {

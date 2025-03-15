@@ -22,7 +22,7 @@ const Series = () => {
     rating:yup.number().required()
   })
   const router = useRouter()
-  const Cate = ["","anime", "asianseries", "tvshows"]
+  const Cate = ["","anime", "asianseries", "tvshows","telenovelas"]
   const [arr,setarr] = useState([])
   const [loading, setloading] = useState(false)
   const [submit, setsubmit] = useState(false)

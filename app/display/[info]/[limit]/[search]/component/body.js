@@ -8,7 +8,7 @@ import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 const Data=({Datas})=>{
 const router = useRouter()
-    const info = Datas.map((e)=>{
+    const info = Datas?.map((e)=>{
         const comment = e.comment.length
         
         return(
